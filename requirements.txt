@@ -1,0 +1,17 @@
+# Copyright (C) 2024 Yucheng Liu. GNU AGPL 3.0 License.
+# GNU AGPL 3.0 License: https://www.gnu.org/licenses/lgpl-3.0.txt .
+
+varname
+python-dateutil
+natsort
+
+numpy
+pandas
+scipy
+scipy-stubs
+scikit-learn
+statsmodels
+
+matplotlib
+seaborn
+jupyter
