@@ -1,27 +1,35 @@
-# ViSCA-Recorder_Data-Analyses_Community
+# ViSCA-Recorder_Data-Analyses\<_Community\>
 
-(Community version of) some data analyses for the ViSCA Recorder RT2 (real-time, temporal) VR sickness dataset.
-
-Note the following items.
-
-- This is a community version.
-- We only included and analyzed user 0's, user 1's, user 2's, and user 3's data.
-- User 0, user 1, user 2, user 3 have exclusively authorized us to make their dataset entries public.
+\<Community version of\> a set of data analysis scripts and results for an HKUST (GZ) MPhil Thesis by LYC.
 
 # Usage
+## Viewing Graphical Analysis Results
+
+- Download `Figures_Computed<_Community>.zip` from the latest release page.
+- Decompress `Figures_Computed<_Community>.zip`.
+- Overwrite `./Figures_Computed/` with the contents of `Figures_Computed<_Community>.zip`.
+- View graphical analysis results in `./Figures_Computed/`.
+
+## Viewing Textual Analysis Results
+
+- Download `Texts_Computed<_Community>.zip` from the latest release page.
+- Decompress `Texts_Computed<_Community>.zip`.
+- Overwrite `./Texts_Computed/` with the contents of `Texts_Computed<_Community>.zip`.
+- View textual analysis results in `./Texts_Computed/`.
+
 ## Preparing the Data to Analyze
 
-- Download `Data_ToAnalyze.zip` from the latest release page.
-- Decompress `Data_ToAnalyze.zip`.
-- Overwrite `./Data_ToAnalyze/` with the contents of `Data_ToAnalyze.zip`.
+- Download `Data_ToAnalyze<_Community>.zip` from the latest release page.
+- Decompress `Data_ToAnalyze<_Community>.zip`.
+- Overwrite `./Data_ToAnalyze/` with the contents of `Data_ToAnalyze<_Community>.zip`.
 - Run the `_0_1_Data_Shared_Prepare.ipynb` file to prepared the shared data.
 - Run the `*_Prepare.ipynb` files to prepare the rest of the data.
 
 ## Preparing the Data to Analyze (Alternative Method)
 
-- Download `Data_All.zip` from the latest release page.
-- Decompress `Data_All.zip`.
-- Overwrite the repository root folder `./` with the contents of `<DataArchive>.zip`.
+- Download `Data_All<_Community>.zip` from the latest release page.
+- Decompress `Data_All<_Community>.zip`.
+- Overwrite the repository root folder `./` with the contents of `Data_All<_Community>.zip`.
 
 ## Analyzing the Data with Python Jupyter Notebooks
 
